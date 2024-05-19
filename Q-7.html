@@ -1,0 +1,30 @@
+<!-- 7. Write a javascript Program to find  rate of interest.(compulsory user input)(p * r  * n / 100) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function Interest(p, r, n) 
+        {
+            return (p * r * n) / 100;
+        }
+
+        let p = 1247;  
+        let r = 9;        
+        let n = 3;      
+
+        let interest = Interest(p, r, n);
+
+        console.log("The interest for a principal amount of " + p + " RS at a rate of " + r + "% for " + n + " years is " + interest + " RS");
+
+    </script>
+</body>
+</html>
+
+
